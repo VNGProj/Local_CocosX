@@ -1,0 +1,26 @@
+material graphic
+{
+    technique DiffUnlit
+    {
+        pass base
+        {
+             shaders = res/Game/Shaders/2D/vfs_Custom2DSprite.sc
+
+             // parameters
+             parameters
+             {
+                 // uniforms binding
+                 // render state
+                 renderState
+                 {
+                     cullFace = true
+                     cullFaceSide = BACK
+                     depthTest = false
+                     depthWrite = false
+                     blend = false
+                 }
+             }
+        }
+    }
+
+}

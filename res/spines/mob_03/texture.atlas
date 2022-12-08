@@ -1,0 +1,139 @@
+
+slime_pur.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Comp 5_00001
+  rotate: false
+  xy: 636, 26
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Energy 052 Shot Right MIX_11
+  rotate: false
+  xy: 134, 6
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Lhand
+  rotate: false
+  xy: 522, 2
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+Reyes
+  rotate: true
+  xy: 401, 36
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
+Reyes_dead
+  rotate: false
+  xy: 548, 5
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+Reyes_hurt
+  rotate: false
+  xy: 987, 81
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+Rhand
+  rotate: false
+  xy: 987, 100
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+That
+  rotate: true
+  xy: 935, 38
+  size: 88, 50
+  orig: 88, 50
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 416, 58
+  size: 113, 68
+  orig: 113, 68
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 838, 41
+  size: 95, 85
+  orig: 95, 85
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 738, 29
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+f4
+  rotate: true
+  xy: 531, 24
+  size: 102, 103
+  orig: 102, 103
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 256, 48
+  size: 158, 78
+  orig: 158, 78
+  offset: 0, 0
+  index: -1
+lightBeam_02
+  rotate: false
+  xy: 416, 5
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 368, 33
+  size: 31, 13
+  orig: 31, 13
+  offset: 0, 0
+  index: -1
+mouth_hurt
+  rotate: false
+  xy: 838, 29
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+pump_flare_02
+  rotate: false
+  xy: 469, 5
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+tia_as
+  rotate: true
+  xy: 2, 8
+  size: 118, 130
+  orig: 118, 130
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 256, 11
+  size: 35, 110
+  orig: 35, 110
+  offset: 0, 0
+  index: -1

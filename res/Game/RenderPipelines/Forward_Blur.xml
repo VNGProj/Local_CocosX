@@ -1,0 +1,7 @@
+<renderpath>
+    <command type="clear" color="0 0 0 1" depth="1.0" stencil="0" />
+    <command type="scenepass" pass="base" vertexlights="false" metadata="base" sort="none" />
+    <command type="forwardlights" pass="light" sortshadowpass="false"/>
+    <command type="renderui"/>
+    <command type="output" target="rendertarget" material="res/Game/Postprocess/QuadBlur.mat" />
+</renderpath>

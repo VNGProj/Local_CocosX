@@ -1,0 +1,174 @@
+{
+  "ID": "57647880-39c0-4e34-9547-de0de13db5e9",
+  "Version": "3.10.0.0",
+  "Name": "sample_01",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 80,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Images/common/avatar_mask.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 84,
+            "Scale9OriginY": 84,
+            "Scale9Width": 88,
+            "Scale9Height": 88,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 159.7153,
+              "Y": 492.8634
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1664,
+              "Y": 0.7701
+            },
+            "PreSize": {
+              "X": 0.2667,
+              "Y": 0.4
+            },
+            "LeftMargin": 31.7153,
+            "RightMargin": 672.2847,
+            "TopMargin": 19.1366,
+            "BottomMargin": 364.8634,
+            "Tag": 81,
+            "Children": [
+              {
+                "FontSize": 30,
+                "LabelText": "Text Label",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 344.702,
+                  "Y": 188.0203
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3465,
+                  "Y": 0.7345
+                },
+                "PreSize": {
+                  "X": 0.5273,
+                  "Y": 0.1367
+                },
+                "LeftMargin": 277.202,
+                "RightMargin": -156.202,
+                "TopMargin": 50.4797,
+                "BottomMargin": 170.5203,
+                "Tag": 82,
+                "ActionTag": 2090222739,
+                "Size": {
+                  "X": 135.0,
+                  "Y": 35.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Images/common/bag.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 347.0306,
+                  "Y": 80.6599
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3556,
+                  "Y": 0.3151
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "LeftMargin": 283.0306,
+                "RightMargin": -155.0306,
+                "TopMargin": 111.3401,
+                "BottomMargin": 16.6599,
+                "Tag": 83,
+                "ActionTag": 576116399,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "Name": "bag_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 498120059,
+            "Size": {
+              "X": 256.0,
+              "Y": 256.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Images/common/avatar_mask.png",
+        "../Images/common/bag.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

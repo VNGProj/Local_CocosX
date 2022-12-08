@@ -1,0 +1,83 @@
+technique DiffUnlit
+{
+    pass base
+    {
+        // shaders
+        shaders = Shaders/vfs_LitSolidNoTex.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+    pass litbase
+    {
+        // shaders
+        shaders = Shaders/vfs_LitSolidNoTex.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+    pass shadow
+    {
+         // shaders
+         shaders = Shaders/vfs_Shadow.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = FRONT
+                depthTest = true
+                depthWrite = true
+                colorWrite = false
+            }
+        }
+    }
+
+    pass shadowInstancing
+    {
+         // shaders
+         shaders = Shaders/vfs_ShadowInstancing.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = FRONT
+                depthTest = true
+                depthWrite = true
+                colorWrite = false
+            }
+        }
+    }
+}

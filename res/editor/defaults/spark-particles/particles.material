@@ -1,0 +1,37 @@
+material particles
+{
+    
+    // Object with vertex & no lighting
+    technique quad
+    {
+        pass 0
+        {
+            // shaders
+            vertexShader = res/engine/shaders/particles/vs_particle.sc
+            fragmentShader =  res/engine/shaders/particles/fs_particle.sc
+
+            // uniforms
+            u_worldMatrix = WORLD_MATRIX
+
+        }
+		renderState
+		{
+			cullFace = true
+			depthTest = true
+			depthWrite = false
+			blend = true
+			blendSrc = SRC_ALPHA
+            blendDst = ONE_MINUS_SRC_ALPHA
+		}
+		sampler u_diffuseTexture
+        {
+            mipmap = true
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = LINEAR_MIPMAP_LINEAR
+            magFilter = LINEAR
+
+            path = res/editor/defaults/spark-particles/pu_dot_03_64x64.png
+        }
+    }
+}

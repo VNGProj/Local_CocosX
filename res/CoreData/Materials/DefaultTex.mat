@@ -1,0 +1,20 @@
+material graphic
+{
+    gpu_instancing = false
+    render_order = 0
+
+    // Object with vertex & no lighting
+    technique DiffUnlit
+    {
+        lod_distance = 0
+        quality = 2
+        url = Techniques/Diff.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+        // samplers
+    }
+
+}

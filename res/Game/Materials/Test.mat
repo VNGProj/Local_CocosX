@@ -1,0 +1,20 @@
+material graphic
+{
+    gpu_instancing = true
+    use_extradata = true
+    render_order = 0
+
+    // Object with vertex & no lighting
+    technique DiffUnlit
+    {
+        lod_distance = 0
+        quality = 2
+        url = res/Game/Techniques/Test.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+    }
+
+}

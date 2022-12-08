@@ -1,0 +1,62 @@
+technique DiffSkinnedUnlit
+{
+    pass base
+    {
+        // shaders
+        shaders = Shaders/vfs_SkinnedUnLitSolidTex.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+    pass litbase
+    {
+        // shaders
+        shaders = Shaders/vfs_SkinnedLitSolidTex.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+
+    pass shadow
+    {
+         // shaders
+         shaders = Shaders/vfs_SkinnedShadow.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = FRONT
+                depthTest = true
+                depthWrite = true
+                colorWrite = false
+            }
+        }
+    }
+}

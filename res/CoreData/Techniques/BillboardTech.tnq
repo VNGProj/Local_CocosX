@@ -1,0 +1,19 @@
+technique BillboardTech
+{
+   pass base
+   {
+       vertexShader = Shaders/vfs_Billboard.sc
+       fragmentShader = Shaders/vfs_Billboard.sc
+       parameters
+       {
+           renderState
+           {
+                cullFace = true
+                cullFaceSide = BACK
+                depthTest = false
+                depthWrite = false
+                blend = false
+           }
+       }
+   }
+}

@@ -1,0 +1,24 @@
+technique DiffUnlit
+{
+    pass base
+    {
+        // shaders
+        shaders = Shaders/vfs_Invalid.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = BACK
+                depthTest = true
+                depthWrite = true
+                blend = false
+            }
+        }
+    }
+
+}

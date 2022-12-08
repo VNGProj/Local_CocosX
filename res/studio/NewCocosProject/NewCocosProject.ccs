@@ -1,0 +1,250 @@
+<Solution>
+  <PropertyGroup Name="NewCocosProject" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="res">
+          <Folder Name="editor">
+            <Folder Name="defaults">
+              <Folder Name="editor-fonts">
+                <TTF Name="fa-regular-400.ttf" />
+                <TTF Name="fa-solid-900.ttf" />
+                <File Name="LICENSE.txt" />
+                <TTF Name="materialdesignicons-webfont.ttf" />
+                <TTF Name="notosans-bold.ttf" />
+                <TTF Name="notosans-regular.ttf" />
+              </Folder>
+              <Folder Name="shaders">
+                <Folder Name="infinity_grid">
+                  <File Name="fs_infinity_grid.sc" />
+                  <File Name="makefile" />
+                  <File Name="varying.def.sc" />
+                  <File Name="vs_infinity_grid.sc" />
+                </Folder>
+                <Folder Name="skybox">
+                  <File Name="fs_skybox.sc" />
+                  <File Name="makefile" />
+                  <File Name="varying.def.sc" />
+                  <File Name="vs_skybox.sc" />
+                </Folder>
+              </Folder>
+              <Folder Name="spark-particles">
+                <File Name="Coin.xml" />
+                <Image Name="Coin100pxSprite.png" />
+                <File Name="particles.material" />
+                <Image Name="pu_dot_03_64x64.png" />
+              </Folder>
+            </Folder>
+            <File Name="editor.ini" />
+          </Folder>
+          <Folder Name="fonts">
+            <TTF Name="A Damn Mess.ttf" />
+            <TTF Name="Abberancy.ttf" />
+            <TTF Name="Abduction.ttf" />
+            <TTF Name="American Typewriter.ttf" />
+            <TTF Name="arial.ttf" />
+            <Fnt Name="arial16.fnt" />
+            <Fnt Name="arial-26-en-ru.fnt" />
+            <Fnt Name="arial-unicode-26.fnt" />
+            <File Name="arial-unicode-26.GlyphProject" />
+            <Fnt Name="bitmapFontChinese.fnt" />
+            <Fnt Name="bitmapFontTest.fnt" />
+            <File Name="bitmapFontTest2.bmp" />
+            <Fnt Name="bitmapFontTest2.fnt" />
+            <Fnt Name="bitmapFontTest3.fnt" />
+            <Fnt Name="bitmapFontTest4.fnt" />
+            <Fnt Name="bitmapFontTest5.fnt" />
+            <Fnt Name="boundsTestFont.fnt" />
+            <TTF Name="Courier New.ttf" />
+            <TTF Name="cyril.ttf" />
+            <TTF Name="cyrillic.ttf" />
+            <File Name="emoji.txt" />
+            <Fnt Name="enligsh-chinese.fnt" />
+            <TTF Name="Fingerpop.ttf" />
+            <TTF Name="FingerpopGap.ttf" />
+            <Fnt Name="font-issue1343.fnt" />
+            <Fnt Name="font-issue1343-hd.fnt" />
+            <Fnt Name="futura-48.fnt" />
+            <Fnt Name="geneva-32.fnt" />
+            <Fnt Name="helvetica-32.fnt" />
+            <TTF Name="HKYuanMini.ttf" />
+            <TTF Name="Japanese.ttf" />
+            <Fnt Name="konqa32.fnt" />
+            <Fnt Name="konqa32-hd.fnt" />
+            <Image Name="labelatlas.png" />
+            <File Name="larabie-16.plist" />
+            <Image Name="larabie-16.png" />
+            <File Name="larabie-16-hd.plist" />
+            <Image Name="larabie-16-hd.png" />
+            <TTF Name="Marker Felt.ttf" />
+            <Fnt Name="markerFelt.fnt" />
+            <Fnt Name="markerFelt-hd.fnt" />
+            <Image Name="markerFelt-hd.png" />
+            <TTF Name="NotoEmoji-Regular.ttf" />
+            <TTF Name="Paint Boy.ttf" />
+            <Fnt Name="Roboto.bmf.fnt" />
+            <TTF Name="Schwarzwald Regular.ttf" />
+            <TTF Name="Schwarzwald.ttf" />
+            <File Name="Schwarzwald_Regular.eot" />
+            <TTF Name="Scissor Cuts.ttf" />
+            <File Name="strings.xml" />
+            <TTF Name="tahoma.ttf" />
+            <TTF Name="Thonburi.ttf" />
+            <TTF Name="ThonburiBold.ttf" />
+            <File Name="tuffy_bold_italic-charmap.plist" />
+            <Image Name="tuffy_bold_italic-charmap.png" />
+            <File Name="tuffy_bold_italic-charmap-hd.plist" />
+            <Image Name="tuffy_bold_italic-charmap-hd.png" />
+            <Fnt Name="west_england-64.fnt" />
+            <TTF Name="xingkai-incomplete.ttf" />
+          </Folder>
+          <Folder Name="Images">
+            <Folder Name="common">
+              <Folder Name="button">
+                <Image Name="img_common_btn_1.png" />
+                <Image Name="img_common_btn_2.png" />
+                <Image Name="img_common_btn_3.png" />
+                <Image Name="img_common_btn_4.png" />
+              </Folder>
+              <Folder Name="popup">
+                <Image Name="common_popup_frame_bg.png" />
+                <Image Name="common_popup_frame_fg.png" />
+                <Image Name="common_popup_title.png" />
+                <Image Name="common_popup_title_decor.png" />
+              </Folder>
+              <Folder Name="popup_small">
+                <Image Name="img_common_popup_small_frame_bg.png" />
+                <Image Name="img_common_popup_small_frame_fg.png" />
+                <Image Name="img_common_popup_small_frame_title.png" />
+                <Image Name="img_common_popup_small_panel.png" />
+                <Image Name="img_popup_small_decor_2.png" />
+              </Folder>
+              <Image Name="4.png" />
+              <Image Name="achievement.png" />
+              <Image Name="add_currency_button_i5.png" />
+              <Image Name="avatar_default.png" />
+              <Image Name="avatar_mask.png" />
+              <Image Name="bag.png" />
+              <Image Name="bg_popups.png" />
+              <Image Name="black_opacity_bar.png" />
+              <Image Name="bt_close.png" />
+              <Image Name="btn_blue.png" />
+              <Image Name="btn_close_4.png" />
+              <Image Name="btn_close_gui.png" />
+              <Image Name="btn_orange.png" />
+              <Image Name="btn_orange_178x61.png" />
+              <Image Name="btnframe.png" />
+              <Image Name="btnselect.png" />
+              <Image Name="bubble_think.png" />
+              <Image Name="bubble_think_1.png" />
+              <Image Name="cancel.png" />
+              <Image Name="checkmark.png" />
+              <Image Name="class_pannel.png" />
+              <Image Name="clock.png" />
+              <Image Name="closegui.png" />
+              <Image Name="cloud_2.png" />
+              <Image Name="cloud_center.png" />
+              <Image Name="color_co_blue.png" />
+              <Image Name="color_co_green.png" />
+              <Image Name="color_co_indigo.png" />
+              <Image Name="color_co_orange.png" />
+              <Image Name="color_co_red.png" />
+              <Image Name="color_co_yellow.png" />
+              <Image Name="comic_pop_bubble.png" />
+              <Image Name="common_tooltip_bg.png" />
+              <Image Name="cooperative_edit_name_text.png" />
+              <Image Name="custom_bubble.png" />
+              <Image Name="destroy.png" />
+              <Image Name="dimond.png" />
+              <Image Name="edit_name.png" />
+              <Image Name="exp.png" />
+              <Image Name="fog_overlay.png" />
+              <Image Name="gift_box_1.png" />
+              <Image Name="gift_box_2.png" />
+              <Image Name="gold.png" />
+              <Image Name="gold_icon.png" />
+              <Image Name="green_checkmark.png" />
+              <Image Name="grid.png" />
+              <Image Name="hand.png" />
+              <Image Name="happiness.png" />
+              <Image Name="icon_gold_no_stroke.png" />
+              <Image Name="icon_worker_max.png" />
+              <Image Name="img_bg_title.png" />
+              <Image Name="img_star_white.png" />
+              <Image Name="img_waiting_in_gui.png" />
+              <Image Name="imgdefault.png" />
+              <Image Name="imgdefault_1.png" />
+              <Image Name="in_arrow.png" />
+              <Image Name="inventory.png" />
+              <Image Name="loading_bar.png" />
+              <Image Name="new_btn_close_img.png" />
+              <Image Name="nine_patch_frame.png" />
+              <Image Name="noise1.png" />
+              <Image Name="noise2.png" />
+              <Image Name="noti.png" />
+              <Image Name="ordericon.png" />
+              <Image Name="out_arrow.png" />
+              <Image Name="people_topbar.png" />
+              <Image Name="progess.png" />
+              <Image Name="progess1.png" />
+              <Image Name="pure_noise.jpg" />
+              <Image Name="red.png" />
+              <Image Name="rotate.png" />
+              <Image Name="scene_cloud_1.png" />
+              <Image Name="sea_displacement.png" />
+              <Image Name="sea_gradient.jpg" />
+              <Image Name="sea_noise1.png" />
+              <Image Name="shell.png" />
+              <Image Name="sickle_icon.png" />
+              <Image Name="skip_button.png" />
+              <Image Name="tick.png" />
+              <Image Name="warehouse.png" />
+              <Image Name="warning.png" />
+              <Image Name="worker.png" />
+            </Folder>
+            <PlistImageFolder Image="ui.png" PListFile="ui.plist" Name=".ui_PList.Dir">
+              <PlistImageFile Name="button_actived.png" Key="button_actived.png" />
+              <PlistImageFile Name="button_normal.png" Key="button_normal.png" />
+              <PlistImageFile Name="coin.png" Key="coin.png" />
+              <PlistImageFile Name="crystal.png" Key="crystal.png" />
+              <PlistImageFile Name="dialog_bg.png" Key="dialog_bg.png" />
+              <PlistImageFile Name="dialog_corner.png" Key="dialog_corner.png" />
+              <PlistImageFile Name="item_bg.png" Key="item_bg.png" />
+              <PlistImageFile Name="mini_map_bg.png" Key="mini_map_bg.png" />
+              <PlistImageFile Name="user_info_panel.png" Key="user_info_panel.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="Texture">
+            <Image Name="Burst01.png" />
+            <Image Name="Cloud01.png" />
+            <Image Name="Flame01.png" />
+            <Image Name="LaserMain01.png" />
+            <Image Name="LaserMain02.png" />
+            <Image Name="Particle01.png" />
+            <Image Name="Particle02.png" />
+            <Image Name="Particle03.png" />
+            <Image Name="Particle04_bokashi_hard.png" />
+            <Image Name="Particle04_bokashi_soft.png" />
+            <Image Name="Particle04_bokashistrong_hard.png" />
+            <Image Name="Particle04_bokashistrong_soft.png" />
+            <Image Name="Particle04_clear_hard.png" />
+            <Image Name="Particle04_clear_soft.png" />
+            <Image Name="Splash01.png" />
+            <Image Name="SwordLine01.png" />
+            <File Name="test.json" />
+            <Image Name="Thunder01.png" />
+            <Image Name="Wind01.png" />
+            <Image Name="wind02.png" />
+            <Image Name="Arrow.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="ui" />
+        <Project Name="AnimationBlendingUI.csd" Type="Layer" />
+        <Project Name="HUD.csd" Type="Layer" />
+        <Project Name="NodeBillboard.csd" Type="Node" />
+        <Project Name="sample_01.csd" Type="Layer" />
+        <Project Name="QualityUI.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

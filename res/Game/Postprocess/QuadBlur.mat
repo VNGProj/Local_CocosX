@@ -1,0 +1,26 @@
+material quadbasic
+{
+    technique quadbasic
+    {
+        pass base
+        {
+            // shaders
+            vertexShader = Shaders/Postprocessing/vfs_Blur.sc
+            fragmentShader =  Shaders/Postprocessing/vfs_Blur.sc
+
+            parameters
+            {
+                  // render state
+                  renderState
+                  {
+                      cullFace = true
+                      depthTest = false
+                      depthWrite = false
+                      blend = false
+                      blendSrc = ONE
+                      blendDst = ZERO
+                  }
+            }
+        }
+    }
+}

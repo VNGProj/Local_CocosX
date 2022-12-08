@@ -1,0 +1,118 @@
+technique DiffGPUSkinned
+{
+    pass base
+    {
+        // shaders
+        shaders = Shaders/vfs_GPUSkinnedUnLitSolidTex.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+    pass litbase
+    {
+        // shaders
+        shaders = Shaders/vfs_GPUSkinnedLitSolidTex.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+
+    pass baseInstancing
+    {
+        // shaders
+        shaders = Shaders/vfs_GPUSkinnedUnLitSolidTexInstancing.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+
+    pass litbaseInstancing
+    {
+        // shaders
+        shaders = Shaders/vfs_GPUSkinnedLitSolidTexInstancing.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+    pass shadow
+    {
+        // shaders
+        shaders = Shaders/vfs_GPUSkinnedShadow.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = FRONT
+                depthTest = true
+                depthWrite = true
+                colorWrite = false
+            }
+        }
+    }
+    pass shadowInstancing
+    {
+        // shaders
+        shaders = Shaders/vfs_GPUSkinnedShadowInstancing.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = FRONT
+                depthTest = true
+                depthWrite = true
+                colorWrite = false
+            }
+        }
+    }
+
+}

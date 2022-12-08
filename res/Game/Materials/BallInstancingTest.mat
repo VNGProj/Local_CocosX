@@ -1,0 +1,109 @@
+material graphic
+{
+    gpu_instancing = true
+    use_extradata = true
+    render_order = 0
+
+    // Object with vertex & no lighting
+    technique Ball
+    {
+        lod_distance = 0
+        quality = 2
+        pass litbase
+        {
+            // shaders
+            shaders = res/Game/Shaders/vfs_PoolBall.sc
+            defines = USING_VERTEX;USING_TEXCOORD0;USING_NORMAL;USING_INOUT_TEXCOORD0;USING_INOUT_NORMAL;USING_INOUT_SHADOWCOORD;USING_INOUT_FRAGPOS;RECEIVED_SHADOW
+
+            // parameters
+            parameters
+            {
+                // uniforms binding
+                // render state
+                renderState
+                {
+                    cullFace = true
+                    cullFaceSide = BACK
+                    depthTest = true
+                    depthWrite = true
+                    blend = false
+                }
+            }
+        }
+        pass litbaseInstancing
+        {
+            // shaders
+            shaders = res/Game/Shaders/vfs_PoolBallInstancing.sc
+            defines = USING_VERTEX;USING_TEXCOORD0;USING_NORMAL;USING_INSTANCING;USING_INOUT_TEXCOORD0;USING_INOUT_NORMAL;INSTANCING;USING_INOUT_SHADOWCOORD;USING_INOUT_FRAGPOS;RECEIVED_SHADOW
+
+            // parameters
+            parameters
+            {
+                // uniforms binding
+                // render state
+                renderState
+                {
+                    cullFace = true
+                    cullFaceSide = BACK
+                    depthTest = true
+                    depthWrite = true
+                    blend = false
+                }
+            }
+        }
+        pass shadow
+       {
+            // shaders
+            shaders = Shaders/vfs_Shadow.sc
+
+           // parameters
+           parameters
+           {
+               // uniforms binding
+               // render state
+               renderState
+               {
+                   cullFace = true
+                   depthTest = true
+                   depthWrite = true
+                   colorWrite = false
+               }
+           }
+       }
+       pass shadowInstancing
+       {
+            // shaders
+            shaders = Shaders/vfs_ShadowInstancing.sc
+
+           // parameters
+           parameters
+           {
+               // render state
+               renderState
+               {
+                   cullFace = true
+                   depthTest = true
+                   depthWrite = true
+                   colorWrite = false
+               }
+           }
+       }
+
+    }
+
+    // material parameters
+    parameters
+    {
+        // samplers
+        sampler u_diffuseTex
+        {
+            path = res/Images/poolball.png
+            mipmap = false
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = NEAREST_MIPMAP_LINEAR
+            magFilter = LINEAR
+        }
+    }
+
+}

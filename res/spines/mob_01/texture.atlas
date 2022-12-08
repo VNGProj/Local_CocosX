@@ -1,0 +1,111 @@
+
+slime_red.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lhand
+  rotate: false
+  xy: 480, 106
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+Reyes
+  rotate: true
+  xy: 55, 11
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
+Reyes_dead
+  rotate: true
+  xy: 36, 9
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+Reyes_hurt
+  rotate: false
+  xy: 480, 87
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+Rhand
+  rotate: false
+  xy: 285, 30
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 206, 58
+  size: 113, 68
+  orig: 113, 68
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 321, 41
+  size: 95, 85
+  orig: 95, 85
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 106, 29
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+f4
+  rotate: false
+  xy: 2, 23
+  size: 102, 103
+  orig: 102, 103
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 418, 3
+  size: 82, 42
+  orig: 82, 42
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 2, 7
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+mouth_attack
+  rotate: true
+  xy: 297, 3
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+mouth_hurt
+  rotate: true
+  xy: 285, 2
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+slash193
+  rotate: true
+  xy: 206, 2
+  size: 54, 77
+  orig: 54, 77
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 418, 47
+  size: 60, 79
+  orig: 60, 79
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,18 @@
+material ocean
+{
+    render_order = 0
+
+    technique BillboardTech
+    {
+        lod_distance = 0
+        quality = 2
+        url = Techniques/BillboardTech.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+        vec4 u_billboardCenter,
+        sampler u_diffuseTex
+    }
+}

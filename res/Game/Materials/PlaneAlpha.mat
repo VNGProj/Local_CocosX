@@ -1,0 +1,72 @@
+material graphic
+{
+    gpu_instancing = false
+    use_extradata = false
+    render_order = 0
+
+    technique DiffAlphaUnlit
+    {
+        lod_distance = 0
+        quality = 2
+        pass alpha
+        {
+            // shaders
+            shaders = res/Game/Shaders/vfs_UnlitAlphaTex.sc
+
+            // parameters
+            parameters
+            {
+                // uniforms binding
+                // render state
+                renderState
+                {
+                    cullFace = true
+                    cullFaceSide = BACK
+                    depthTest = true
+                    depthWrite = false
+                    blend = true
+                    blendSrc = SRC_ALPHA
+                    blendDst = ONE_MINUS_SRC_ALPHA
+                }
+            }
+        }
+        pass litalpha
+        {
+            // shaders
+            shaders = res/Game/Shaders/vfs_LitAlphaTex.sc
+
+            // parameters
+            parameters
+            {
+                // uniforms binding
+                // render state
+                renderState
+                {
+                    cullFace = true
+                    cullFaceSide = BACK
+                    depthTest = true
+                    depthWrite = false
+                    blend = true
+                    blendSrc = SRC_ALPHA
+                    blendDst = ONE_MINUS_SRC_ALPHA
+                }
+            }
+        }
+    }
+
+    // material parameters
+    parameters
+    {
+        // samplers
+        sampler u_diffuseTex
+        {
+            path = res/Texture/Flame01.png
+            mipmap = false
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = NEAREST_MIPMAP_LINEAR
+            magFilter = LINEAR
+        }
+    }
+
+}

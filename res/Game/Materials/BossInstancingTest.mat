@@ -1,0 +1,29 @@
+material graphic
+{
+    gpu_instancing = true
+    render_order = 0
+
+    // Object with vertex & no lighting
+    technique DiffUnlit
+    {
+        lod_distance = 0
+        quality = 2
+        url = Techniques/Diff.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+        // samplers
+        sampler u_diffuseTex
+        {
+            path = res/Sprite3DTest/boss.png
+            mipmap = false
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = NEAREST_MIPMAP_LINEAR
+            magFilter = LINEAR
+        }
+    }
+
+}

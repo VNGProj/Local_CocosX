@@ -1,0 +1,63 @@
+material water
+{
+    gpu_instancing = true
+    render_order = 0
+
+    //
+    technique DiffLit
+    {
+        lod_distance = 0
+        quality = 2
+
+        pass base
+        {
+            shaders = res/water/vfs_water.sc
+
+             // parameters
+            parameters
+            {
+                // uniforms binding
+                // render state
+                renderState
+                {
+                    cullFace = true
+                    depthTest = true
+                    depthWrite = true
+                }
+            }
+        }
+    }
+
+    // material parameters
+    parameters
+    {
+        u_matDiffColor = 0.1,0.1,1,1
+
+        // samplers
+        sampler u_PerlinNoiseTex
+        {
+            path = res/water/PerlinNoise.png
+            mipmap = false
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = NEAREST_MIPMAP_LINEAR
+            magFilter = LINEAR
+        }
+
+        sampler u_WaterDistortionTex
+        {
+            path = res/water/WaterDistortion.png
+            mipmap = false
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = NEAREST_MIPMAP_LINEAR
+            magFilter = LINEAR
+        }
+    }
+
+}
+
+
+
+
+

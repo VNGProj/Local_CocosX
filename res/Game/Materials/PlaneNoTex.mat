@@ -1,0 +1,20 @@
+material graphic
+{
+    gpu_instancing = true
+    render_order = 0
+
+    // Object with vertex & no lighting
+    technique DiffUnlit
+    {
+        lod_distance = 0
+        quality = 2
+        url = Techniques/DiffNoTex.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+        u_matDiffColor = 0.5,0.5,0.5,1
+    }
+
+}

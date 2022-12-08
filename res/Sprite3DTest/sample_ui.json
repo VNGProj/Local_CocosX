@@ -1,0 +1,78 @@
+{
+    "ID": "1a70d224-5434-4094-97d4-056b55cbb36d",
+    "Version": "2.3.4",
+    "Name": "node_quest_reward",
+    "Content": {
+      "Content": {
+        "Animation": {
+          "Duration": 0,
+          "Speed": 1.0,
+          "Timelines": [],
+          "ctype": "TimelineActionData"
+        },
+        "AnimationList": [],
+        "ObjectData": {
+          "Tag": 65,
+          "Children": [
+            {
+              "FileData": {
+                "Type": "Normal",
+                "Path": "plane.png",
+                "Plist": ""
+              },
+              "Scale9OriginX": 28,
+              "Scale9OriginY": 28,
+              "Scale9Width": 31,
+              "Scale9Height": 31,
+              "AnchorPoint": {
+                "ScaleX": 0.5,
+                "ScaleY": 0.5
+              },
+              "Position": {
+                "X": 0.0,
+                "Y": 0.7827
+              },
+              "Scale": {
+                "ScaleX": 1.0,
+                "ScaleY": 1.0
+              },
+              "CColor": {},
+              "IconVisible": false,
+              "PrePosition": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "PreSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "LeftMargin": -15.0,
+              "RightMargin": -15.0,
+              "TopMargin": -15.7827,
+              "BottomMargin": -14.2173,
+              "Tag": 120,
+              "ActionTag": -1805781967,
+              "Size": {
+                "X": 30.0,
+                "Y": 30.0
+              },
+              "VisibleForFrame": false,
+              "Name": "imgIcon",
+              "ctype": "ImageViewObjectData"
+            }
+          ],
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Name": "Node",
+          "ctype": "SingleNodeObjectData"
+        },
+        "UsedResources": [
+          "plane.png"
+        ],
+        "ctype": "GameFileData"
+      }
+    },
+    "Type": "Node"
+  }

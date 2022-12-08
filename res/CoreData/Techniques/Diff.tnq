@@ -1,0 +1,121 @@
+technique DiffUnlit
+{
+    pass base
+    {
+        // shaders
+        shaders = Shaders/vfs_UnlitSolidTex.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = BACK
+                depthTest = true
+                depthWrite = true
+                blend = false
+            }
+        }
+    }
+    pass litbase
+    {
+        // shaders
+        shaders = Shaders/vfs_LitSolidTex.sc
+
+        // parameters
+        parameters
+        {
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = BACK
+                depthTest = true
+                depthWrite = true
+                blend = false
+            }
+        }
+    }
+    pass shadow
+    {
+         // shaders
+         shaders = Shaders/vfs_Shadow.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = FRONT
+                depthTest = true
+                depthWrite = true
+                colorWrite = false
+            }
+        }
+    }
+
+    pass baseInstancing
+    {
+        // shaders
+        shaders = Shaders/vfs_UnlitSolidTexInstancing.sc
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = BACK
+                depthTest = true
+                depthWrite = true
+                blend = false
+            }
+        }
+    }
+
+    pass litbaseInstancing
+    {
+        // shaders
+        shaders = Shaders/vfs_LitSolidTexInstancing.sc
+
+        // parameters
+        parameters
+        {
+            // render state
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+                depthWrite = true
+            }
+        }
+    }
+    pass shadowInstancing
+    {
+         // shaders
+         shaders = Shaders/vfs_ShadowInstancing.sc
+
+        // parameters
+        parameters
+        {
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = FRONT
+                depthTest = true
+                depthWrite = true
+                colorWrite = false
+            }
+        }
+    }
+
+}

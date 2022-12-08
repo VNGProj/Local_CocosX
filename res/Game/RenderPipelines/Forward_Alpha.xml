@@ -1,0 +1,9 @@
+<renderpath>
+    <command type="clear" color="0 0 0 1" depth="1.0" stencil="0" />
+    <command type="scenepass" pass="base" vertexlights="false" metadata="base" sort="none" />
+    <command type="forwardlights" pass="litbase" sortshadowpass="false"/>
+    <command type="scenepass" pass="alpha" vertexlights="false" metadata="alpha" sort="backtofront" />
+    <command type="scenepass" pass="efk" vertexlights="false" metadata="alpha" sort="backtofront" />
+    <command type="renderui"/>
+    <command type="output" target="rendertarget" material="res/CoreData/Materials/Quad/QuadBasic.mat" />
+</renderpath>

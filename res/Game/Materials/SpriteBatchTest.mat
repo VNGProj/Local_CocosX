@@ -1,0 +1,29 @@
+material graphic
+{
+    gpu_instancing = false
+    use_extradata = false
+    render_order = 0
+
+    technique DiffUnlit
+    {
+        lod_distance = 0
+        quality = 2
+        url = res/Game/Techniques/DiffAlpha.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+        // samplers
+        sampler u_diffuseTex
+        {
+            path = res/Texture/Yakiniku.png
+            mipmap = false
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = NEAREST_MIPMAP_LINEAR
+            magFilter = LINEAR
+        }
+    }
+
+}

@@ -1,0 +1,26 @@
+technique DiffUnlit
+{
+    pass alpha
+    {
+        // shaders
+        shaders = res/Game/Shaders/vfs_TestSpriteBatch.sc
+        defines =
+
+        // parameters
+        parameters
+        {
+            // uniforms binding
+            // render state
+            renderState
+            {
+                cullFace = true
+                cullFaceSide = BACK
+                depthTest = true
+                depthWrite = false
+                blend = true
+                blendSrc = SRC_ALPHA
+                blendDst = ONE_MINUS_SRC_ALPHA
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+material
+{
+    gpu_instancing = false
+    render_order = 0
+
+    // Object with vertex & no lighting
+    technique DiffSkinned
+    {
+        lod_distance = 100
+        quality = 2
+        url = Techniques/DiffSkinned.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+        // samplers
+    }
+
+}

@@ -1,0 +1,83 @@
+
+slime_green.png
+size: 143, 284
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Layer 30
+  rotate: true
+  xy: 117, 113
+  size: 50, 24
+  orig: 50, 24
+  offset: 0, 0
+  index: -1
+Layer 31
+  rotate: true
+  xy: 117, 49
+  size: 40, 19
+  orig: 40, 20
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 65
+  size: 113, 98
+  orig: 113, 98
+  offset: 0, 0
+  index: -1
+cane
+  rotate: true
+  xy: 2, 20
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+eyebrows
+  rotate: false
+  xy: 2, 4
+  size: 47, 14
+  orig: 50, 15
+  offset: 3, 1
+  index: -1
+fx sad
+  rotate: true
+  xy: 2, 165
+  size: 119, 129
+  orig: 207, 181
+  offset: 38, 25
+  index: -1
+hand_L
+  rotate: false
+  xy: 117, 91
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 112, 21
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 51, 4
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+mouth copy
+  rotate: false
+  xy: 112, 6
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 62, 17
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1

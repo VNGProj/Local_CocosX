@@ -1,0 +1,28 @@
+material graphic
+{
+    gpu_instancing = true
+    render_order = 0
+
+    // Object with vertex & no lighting
+    technique DiffUnlit
+    {
+        lod_distance = 0
+        quality = 2
+        url = Techniques/DiffGPUSkinned.tnq
+    }
+
+    // material parameters
+    parameters
+    {
+        // samplers
+        sampler u_diffuseTex
+        {
+            path = res/Game/model/fac_1/texture.png
+            mipmap = false
+            wrapS = CLAMP
+            wrapT = CLAMP
+            minFilter = NEAREST_MIPMAP_LINEAR
+            magFilter = LINEAR
+        }
+    }
+}
